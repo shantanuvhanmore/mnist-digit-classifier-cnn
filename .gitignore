@@ -1,0 +1,6 @@
+__pycache__/
+*.ipynb_checkpoints
+outputs/*.png
+.venv
+# Ignore only the trained model file
+outputs/mnist_cnn_model.keras
