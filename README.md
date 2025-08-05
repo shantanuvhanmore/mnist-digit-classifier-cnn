@@ -1,4 +1,4 @@
-````markdown
+````
 # 🧠 MNIST Digit Classifier using CNN
 
 This project uses a Convolutional Neural Network (CNN) to classify handwritten digits (0–9) from the MNIST dataset. It achieves over **98% accuracy** and is a great starting point to understand image classification using deep learning.
@@ -23,7 +23,6 @@ This project uses a Convolutional Neural Network (CNN) to classify handwritten d
 - Image size: 28x28 pixels
 
 ---
-````
 ## 🖥️ How to Run
 
 ### 🔧 Setup (Windows CMD)
