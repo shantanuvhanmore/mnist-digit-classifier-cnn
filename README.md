@@ -1,74 +1,142 @@
-cd c:\codes\mnist-digit-classifier-cnn
-.venv\Scripts\activatecd c:\codes\mnist-digit-classifier-cnn
-.venv\Scripts\activatecd c:\codes\mnist-digit-classifier-cnn
-.venv\Scripts\activatecd c:\codes\mnist-digit-classifier-cnn
-.venv\Scripts\activate# MNIST Digit Classifier using CNN 🧠
+````markdown
+# 🧠 MNIST Digit Classifier using CNN
 
-This project uses a Convolutional Neural Network (CNN) to classify handwritten digits from the MNIST dataset.
+This project uses a Convolutional Neural Network (CNN) to classify handwritten digits (0–9) from the MNIST dataset. It achieves over **98% accuracy** and is a great starting point to understand image classification using deep learning.
 
-## Features
-- 98%+ accuracy on test set
-- Simple CNN using Keras
-- Visual output and evaluation
+---
 
-## Dataset
-- MNIST: 60,000 training and 10,000 test images of digits (0–9)
+## 📌 Features
 
-## How to Run
-1. Clone repo
-2. Install requirements
-3. Run `notebook/mnist_classifier_notebook.ipynb`
+- ✅ Over 98% accuracy on the MNIST test set  
+- 🧱 Built using **TensorFlow** and **Keras**  
+- 📊 Visual training output and predictions  
+- 💾 Saves trained model to `outputs/` directory  
+- 🧪 Test your own digit images
 
-## How to Run (Windows CMD)
+---
 
-1. Open the main project folder in Command Prompt (CMD).
-2. Create a virtual environment:
+## 📦 Dataset
+
+> **MNIST** – 70,000 grayscale images of handwritten digits  
+- 60,000 training images  
+- 10,000 test images  
+- Image size: 28x28 pixels
+
+---
+
+## 🖥️ How to Run
+
+### 🔧 Setup (Windows CMD)
+
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/your-username/mnist-digit-classifier-cnn.git
+   cd mnist-digit-classifier-cnn
+````
+
+2. **Create a virtual environment:**
+
    ```cmd
    python -m venv .venv
    ```
-3. Activate the virtual environment:
+
+3. **Activate the virtual environment:**
+
    ```cmd
    .venv\Scripts\activate
    ```
-4. Install requirements:
+
+4. **Install dependencies:**
+
    ```cmd
    pip install -r requirements.txt
    ```
-5. Train and save the model:
+
+5. **Train the model:**
+
    ```cmd
    python src/train.py
    ```
-6. Test with your own image (see instructions below):
+
+6. **Test with a custom image:**
+
    ```cmd
    python src/test_custom_image.py data/nine2.png
    ```
 
-## Test with Your Own Image
+---
+
+## 🧪 Test with Your Own Image
 
 1. Prepare your image:
-   - Make sure the image is square (e.g., 28x28 pixels).
-   - The digit should be between 0–9.
-   - The background should be black.
-   - You can use Paint or any image editor for this.
-   - **Place your image in the `data` folder.**
-   - If you have difficulty creating an image, you can use one of the sample images already provided in the `data` folder.
 
-2. Run the test script with your image:
-   ```
+   * Size: **28x28 pixels**
+   * Format: `.png` recommended
+   * Black background, white digit (0–9)
+   * Place it inside the `data/` folder
+
+2. Run the test:
+
+   ```bash
    python src/test_custom_image.py data/your_image.png
    ```
-   - Example:
-     ```
-     python src/test_custom_image.py data/nine2.png
-     ```
 
-## Sample Output
-![Accuracy Plot](outputs/accuracy_plot.png)
+   Example:
 
-![sample prediction 0](outputs\sample_prediction_0.png)
+   ```bash
+   python src/test_custom_image.py data/nine2.png
+   ```
 
-## Model Save Name
-- After running `src/train.py`, the trained model will be saved as `mnist_cnn_model.keras` in the `outputs` folder.
+---
 
-## Author
-Your Name
+## 📈 Sample Output
+
+<p float="left">
+  <img src="outputs/accuracy_plot.png" width="300" />
+  <img src="outputs/sample_prediction_0.png" width="300" />
+</p>
+
+---
+
+## 💾 Model Output
+
+* Trained model saved as:
+
+  ```
+  outputs/mnist_cnn_model.keras
+  ```
+
+---
+
+## 📁 Project Structure
+
+```
+mnist-digit-classifier-cnn/
+│
+├── src/
+│   ├── train.py                # Training script
+│   └── test_custom_image.py   # Test custom digit images
+│
+├── data/                      # Sample or custom input images
+├── output/                    # Saved models, plots, predictions
+├── notebook/                  # Jupyter notebook version
+│   └── mnist_classifier_notebook.ipynb
+│
+├── requirements.txt           # Required Python packages
+└── README.md                  # Project documentation
+```
+
+---
+
+## 👨‍💻 Author
+
+**Shantanu Vhanmore**
+Feel free to fork, contribute, or reach out with questions!
+
+---
+
+## ⭐️ Star This Repo
+
+If you found this useful, consider giving it a ⭐️ on GitHub — it helps others find it!
+
+```
