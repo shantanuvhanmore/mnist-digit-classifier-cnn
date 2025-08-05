@@ -90,16 +90,24 @@ This project uses a Convolutional Neural Network (CNN) to classify handwritten d
 
 ## 📈 Sample Output
 
-<p float="left">
-  <img src="outputs/accuracy_plot.png" width="300" />
-  <img src="outputs/sample_prediction_0.png" width="300" />
-</p>
+* accuracy_plot:
+
+
+* sample_prediction:
+
+
+* Test with custom images:
+
+    1. with ACCURATE PREDICTION
+
+    2. with INACCURATE PREDICTION
+
 
 ---
 
 ## 💾 Model Output
 
-* Trained model saved as:
+* After running the src/train.py Trained model saved as:
 
   ```
   outputs/mnist_cnn_model.keras
