@@ -148,6 +148,7 @@ mnist-digit-classifier-cnn/
 ## 👨‍💻 Author
 
 **Shantanu Vhanmore**
+
 Feel free to fork, contribute, or reach out with questions!
 
 ---
