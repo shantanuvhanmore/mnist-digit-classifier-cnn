@@ -23,7 +23,7 @@ This project uses a Convolutional Neural Network (CNN) to classify handwritten d
 - Image size: 28x28 pixels
 
 ---
-
+````
 ## 🖥️ How to Run
 
 ### 🔧 Setup (Windows CMD)
@@ -32,7 +32,6 @@ This project uses a Convolutional Neural Network (CNN) to classify handwritten d
    ```bash
    git clone https://github.com/your-username/mnist-digit-classifier-cnn.git
    cd mnist-digit-classifier-cnn
-````
 
 2. **Create a virtual environment:**
 
