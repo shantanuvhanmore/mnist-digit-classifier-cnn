@@ -90,22 +90,26 @@ This project uses a Convolutional Neural Network (CNN) to classify handwritten d
 
 ## 📈 Sample Output
 
-* accuracy_plot:
+* Accuracy Plot:
 <img width="640" height="480" alt="accuracy_plot" src="https://github.com/user-attachments/assets/a48f643f-7b27-4e8f-ae80-0f3c0a9272d5" />
 
 
-* sample_prediction:
+* Sample Prediction:
 <img width="640" height="480" alt="sample_prediction" src="https://github.com/user-attachments/assets/acad91dd-19a4-4e61-827d-6709745b04d9" />
 
 
-* Test with custom images:
+* Test with Custom Images:
 
-    1. with ACCURATE PREDICTION
+    #1. with ACCURATE PREDICTION
+  
    <img width="1366" height="768" alt="Screenshot 2025-08-05 114826" src="https://github.com/user-attachments/assets/2600bea8-1925-4fd3-b99c-008033dafcec" />
+   
    <img width="1366" height="768" alt="Screenshot 2025-08-05 114725" src="https://github.com/user-attachments/assets/adcc1b6c-1083-470c-a4dd-9cae4742f560" />
 
-    2. with INACCURATE PREDICTION
+    *2. with INACCURATE PREDICTION
+       
    <img width="1366" height="768" alt="Screenshot 2025-08-05 114803" src="https://github.com/user-attachments/assets/ace3295c-5a0b-4aae-8f08-aa0f861e3fbd" />
+   
    <img width="1366" height="768" alt="Screenshot 2025-08-05 115157" src="https://github.com/user-attachments/assets/8e8988dd-56d8-4dc3-aa40-8a626a9077f6" />
 
 
