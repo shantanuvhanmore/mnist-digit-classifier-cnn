@@ -30,7 +30,7 @@ This project uses a Convolutional Neural Network (CNN) to classify handwritten d
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/your-username/mnist-digit-classifier-cnn.git
+   git clone https://github.com/shantanuvhanmore/mnist-digit-classifier-cnn.git
    cd mnist-digit-classifier-cnn
 
 2. **Create a virtual environment:**
