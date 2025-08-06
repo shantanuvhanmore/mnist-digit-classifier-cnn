@@ -156,5 +156,3 @@ Feel free to fork, contribute, or reach out with questions!
 ## ⭐️ Star This Repo
 
 If you found this useful, consider giving it a ⭐️ on GitHub — it helps others find it!
-
-```
